@@ -1,2 +1,4 @@
-# Recruitment-Management-System-
-Backend Project
+# Recruitment-Management-System
+This repository contains the backend server for a Recruitment Management System, designed to facilitate the creation of user profiles, resume uploads, and job applications. The system supports two types of users: Admin and Applicant. Admin users have the capability to create job openings and view detailed applicant information, while applicants can view and apply for these job openings.
+The system's features include comprehensive user management, allowing users to create profiles and upload resumes in PDF or DOCX formats. Authentication is handled using JWT tokens to ensure secure access. For resume processing, uploaded resumes are sent to a third-party API that extracts relevant information, which is then stored in the database. This allows for efficient handling and retrieval of applicant data.
+Job management is streamlined for admin users, enabling them to create and manage job openings. Applicants can easily browse and apply for these openings through the system. Additionally, admin users have access to all uploaded resumes and the extracted data of applicants, providing a robust data access feature that supports efficient recruitment management
